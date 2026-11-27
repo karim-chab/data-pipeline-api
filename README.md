@@ -1,5 +1,7 @@
 # Data Pipeline Engine
 
+[![CI](https://github.com/karim-chab/data-pipeline-api/actions/workflows/ci.yml/badge.svg)](https://github.com/karim-chab/data-pipeline-api/actions/workflows/ci.yml)
+
 A small financial data service: two resilient ETL pipelines (crypto spot prices, FX rates)
 persist to SQLite, and a FastAPI app exposes the stored history, aggregate analytics and a
 Pro-only cross-asset valuation behind tiered API keys, with Stripe Checkout handling upgrades.
